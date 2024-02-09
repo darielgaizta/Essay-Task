@@ -11,15 +11,19 @@ I provide **12 Test Cases** which test the program if:
 - all inputs are zeroes
 - all inputs are positive real numbers
 - all inputs are negative real numbers
-- all inputs are large numbers
-- all inputs are small numbers
-- all inputs are mixed random numbers
+- all inputs are large positive numbers
+- all inputs are small positive numbers
+- all inputs are large negative numbers
+- all inputs are positive infinity
+- all inputs are negative infinity
+- the function returns negative number for positives divided by negatives
+- the function returns negative number for negatives divided by positives
 - the function returns Infinite if it is a zero division
-- the function returns large numbers as a result
-- the function returns small numbers as a result
+- the function returns large positive number as a result
+- the function returns small positive number as a result
+- the function returns large negative number as a result
 - the function returns a precise number
 - the function is commutative
-- the function supports operation for any random numbers
 
 ## Dependencies
 - testng
